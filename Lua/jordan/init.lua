@@ -1,2 +1,4 @@
 require("jordan.remap")
-print("working")
+
+vim.g.netrw_liststyle = 3
+vim.g.netrw_browse_split = 4
