@@ -1,5 +1,7 @@
-# My nvim config
-- To start from scratch on windows:
-	- Run Get-ExecutionPolicy. If it returns Restricted, then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process.
-	- Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+C:\Users\<user>\AppData\Local\nvim is the default nvim config directory.
 
+WINDOWS:
+1. cd  C:\Users\<user>\AppData\Local
+2.  git clone https://github.com/JordanHSheldon/nvim.git
+
+LINUX:
